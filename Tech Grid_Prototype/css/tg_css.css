@@ -1,0 +1,179 @@
+body {
+  background: url(img/retro-bg.jpg) center center repeat-y;
+  background-size: cover;
+  max-height: 926px;
+  font-family: 'Arial', cursive;
+}
+
+
+
+
+/* MAIN PAGE */
+
+.bolo {
+  background-color: #0e1028!important;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #097b00;
+}
+.dropdown-item {
+  color: #097b00;
+}
+.dropdown-menu {
+  background-color: #000000;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+  color: #33db4b;
+  background-color: transparent;
+}
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+  color: #33db4b;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:active {
+  color: #33db4b;
+}
+.dropdown-toggle::after {
+  content: none;
+}
+
+
+
+
+
+.banner img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+
+.call {
+  margin-top: 10px;
+}
+.call h4 {
+  background-color: #0e1028;
+  max-width: 350px;
+  height: 59px;
+  font-size: 20px;
+  text-align: center;
+}
+a:hover {
+  text-decoration: none;
+}
+.card-body {
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  background-color: #0e1028;
+}
+.card-title {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: #ffffff;
+  text-align: center;
+}
+.card {
+  background-color: transparent;
+}
+
+/* MAIN PAGE */
+
+
+/* SHOP */
+
+.search-bar {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.search-bar input {
+  width: 600px;
+  height: 28px;
+  background-color: #ffffff;
+  border: none;
+  padding-left: 10px;
+}
+.search-bar input::placeholder {
+  color: #097b00;
+}
+
+.search-bar button {
+  display: inline;
+  width: 28px;
+  height: 28px;
+  text-indent: -1000px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  background: transparent url(img/lupa.png);
+  background-size: contain;
+}
+
+ol.breadcrumb {
+  margin: 0;
+  padding: 0 0 0 10px;
+  height: 28px;
+  font-size: 14px;
+  align-items: center;
+}
+
+.breadcrumb-item.active {
+  color: #33db4b;
+}
+
+li.breadcrumb-item a {
+  color: #097b00;
+}
+
+li.breadcrumb-item a:hover {
+  color: #33db4b;
+}
+
+.container.migalhas {
+  padding-bottom: 10px;
+}
+/* SHOP */
+
+/* FOOTER */
+
+footer {
+  background-color: #0e1028!important;
+  max-height: 250px;
+}
+
+footer .container .col.bisnaga img {
+  height: auto;
+  width: 50%;
+}
+
+footer h3 {
+  color: #097b00;
+  padding-left: 40px;
+}
+
+footer a {
+  color: #097b00;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: #33db4b;
+}
+
+footer address {
+  color: #097b00;
+  padding-left: 40px;
+}
+
+footer ul li {
+  list-style: none;
+  color: #097b00;
+}
+
+.bisnaga {
+  text-align: center;
+}
